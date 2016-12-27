@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow><!-- 第一行 星期几 -->
+    <TextView
+        android:layout_span="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="近六日天气"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+    </TableRow>
+
+
+    <TableRow><!-- 第一行 星期几 -->
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="周三"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="周三"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="周三"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow><!-- 第二行 温度 -->
+        <TextView
+            android:id="@+id/day1_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="-2℃~7℃"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="30.0sp" />
+        <TextView
+            android:id="@+id/day2_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="-2℃~7℃"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="30.0sp" />
+        <TextView
+            android:id="@+id/day3_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="-2℃~7℃"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="30.0sp" />
+    </TableRow>
+
+    <TableRow>      <!-- 第三行 天气情况图片示例 -->
+
+        <ImageView
+            android:id="@+id/day1_weatherImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:src="@drawable/biz_plugin_weather_qing" />
+
+        <ImageView
+            android:id="@+id/day2_weatherImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:src="@drawable/biz_plugin_weather_qing" />
+
+        <ImageView
+            android:id="@+id/day3_weatherImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:src="@drawable/biz_plugin_weather_qing" />
+    </TableRow>
+
+    <TableRow>  <!-- 第死行 天气情况 -->
+
+        <TextView
+            android:id="@+id/day1_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="多云转晴"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+        <TextView
+            android:id="@+id/day2_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="多云转晴"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+        <TextView
+            android:id="@+id/day3_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="多云转晴"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+    </TableRow>
+
+    <TableRow>  <!-- 第五行 风力情况 -->
+
+        <TextView
+            android:id="@+id/day1_fengli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="微风"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:id="@+id/day2_fengli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="微风"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+        <TextView
+            android:id="@+id/day3_fengli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="微风"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+    </TableRow>
+
+</TableLayout>
